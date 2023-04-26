@@ -133,7 +133,7 @@ AUTH_USER_MODEL = 'users.User'
 
 # Host and Cors
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', '.vercel.app']
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
